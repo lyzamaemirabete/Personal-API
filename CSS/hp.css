@@ -220,7 +220,10 @@ h1 {
 .animagus,
 .bloodStatus,
 .deathEater,
-.school{
+.school,
+.type,
+.effect,
+.role{
   display: flex;
   flex-direction: row;
   justify-content: center;
