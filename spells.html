@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Harry Potter</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/headerlogo.png">
+    <link rel="stylesheet" href="./CSS/hp.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Lakki+Reddy&display=swap" rel="stylesheet">
+</head> 
+<body>
+    <header class="topHeader">
+        <div class="topHeaderCon">
+        <div class="logoCon">
+        <a href="index.html"><img src="./img/headerlogo.png" class="headerLogo"></a>
+        </div>
+        </div>
+    </header>
+    <div class="housesTitleSpells">
+            <div class="spellDiv">
+            <p class="spell">Spells</p>
+            </div>
+            
+            <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" id="dropdown">
+                        <p class="dropdownText" id="dropdownText">Sort By &nbsp;</p>
+                        <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                        <li><a tabindex="-1" href="#" class="allSpells">All Spells&nbsp;</a></li>
+                        <li class="dropdown-submenu">
+                            <a class="test" tabindex="-1" href="#">Type<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="#" class="charmDrop">Charm&nbsp;</a></li>
+                                <li><a tabindex="-1" href="#" class="curseDrop">Curse&nbsp;</a></li>
+                                <li><a tabindex="-1" href="#" class="enchantmentDrop">Enchantment&nbsp;</a></li>
+                                <li><a tabindex="-1" href="#" class="hexDrop">Hex&nbsp;</a></li>
+                                <li><a tabindex="-1" href="#" class="jinxDrop">Jinx&nbsp;</a></li>
+                                <li><a tabindex="-1" href="#" class="spellDrop">Spell&nbsp;</a></li>
+                              </ul>
+                        </li>
+                    </ul>
+                  </div>
+
+            <div class="search-container">
+                    <input type="text" placeholder="Search.." name="search" class="search">
+                    <button type="submit" class="searchBtn"><img class="searchIcon" src="./img/search.png"></i></button>
+            </div>
+        </div>
+
+    <main>
+        <div class="charDiv">
+            <div class="charList">
+                <div class="gryffindorList">
+                    <ul id="cha">
+                    </ul>
+                </div>
+            </div>
+            <div class="spellDisplay" style="background-image: url(./img/hogwarts3.jpg)">
+                <div class="spellInfos">
+                <div class="name">
+                    <p class="nameText"></p>
+                </div>
+                <div class="house">
+                    <!-- <a href="#" data-toggle="tooltip" data-placement="bottom" title="House"><img class="icons" src="./img/house.png"></a><p class="infoContent"> &nbsp; Gryffindor</p> -->
+                </div>
+                <div class="bloodStatus">
+                        <!-- <a href="#" data-toggle="tooltip" data-placement="bottom" title="Patronus"><img class="icons" src="./img/patronus.png"></a><p class="infoContent"> &nbsp; Gryffindor</p> -->
+                </div>
+                <div class="patronus">
+                        <!-- <a href="#" data-toggle="tooltip" data-placement="bottom" title="Patronus"><img class="icons" src="./img/patronus.png"></a><p class="infoContent"> &nbsp; Gryffindor</p> -->
+                </div>
+                <div class="wand">
+                        <!-- <a href="#" data-toggle="tooltip" data-placement="bottom" title="Wand"><img class="icons" src="./img/wand.png"></a><p class="infoContent"> &nbsp; Gryffindor</p> -->
+                </div>
+                <div class="role">
+                        <!-- <a href="#" data-toggle="tooltip" data-placement="bottom" title="Wand"><img class="icons" src="./img/wand.png"></a><p class="infoContent"> &nbsp; Gryffindor</p> -->
+                </div>
+                <div class="boggart">
+                        <!-- <a href="#" data-toggle="tooltip" data-placement="bottom" title="Founder"><img class="icons" src="./img/founder.png"></a><p class="infoContent"> &nbsp; Gryffindor</p> -->
+                </div>
+                <div class="animagus">
+                        <!-- <a href="#" data-toggle="tooltip" data-placement="bottom" title="Founder"><img class="icons" src="./img/founder.png"></a><p class="infoContent"> &nbsp; Gryffindor</p> -->
+                </div> 
+            </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="./JS/spells.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script>
+        $(document).ready(function(){
+          $('.dropdown-submenu a.test').on("click", function(e){
+            $(this).next('ul').toggle();
+            e.stopPropagation();
+            e.preventDefault();
+          });
+        });
+        </script>
+</html>

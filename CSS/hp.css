@@ -1,0 +1,432 @@
+body{
+    /* background: url('../img/hogwarts-logo.jpg'); */
+    margin: 0 auto;
+    background-size: cover;
+    background-position: 0 -54px;
+}
+body::after {
+    content: "";
+    background: url('../img/hogwarts-logo.jpg');
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+    background-size: cover;
+    background-position: 20px 0;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: 0 -54px;
+  }
+.header{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.topHeaderCon{
+  display: flex;
+  flex-direction: row;  
+}
+.logoCon{
+  width: 100%;
+  display: flex;
+  flex: 1
+}
+.topHeader{
+    height:120px; 
+}
+.headerLogo{
+    height: 100px;
+    background: transparent;
+    margin: 10px 0px 10px 20px;
+}
+.themeDiv{
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: flex-end;
+  margin:50px;
+  width: 90%;
+  font-size: 20px;
+}
+/* p{
+  margin:0 auto;
+} */
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+  }
+  
+  li, p {
+    font-family: 'Hind Vadodara', sans-serif;
+  }
+
+.spellsDiv{
+    height: 500px;
+    width: 500px;
+    background-color: aliceblue;
+    overflow: scroll;
+}
+.spellsTitleDiv{
+    height: 50px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: aqua;
+    margin-top: -22px;
+}
+.housesDiv{
+  width: 100%;
+}
+.housesTitle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
+.housesTitleAll,
+.housesTitleGry,
+.housesTitleRaven,
+.housesTitleSly,
+.housesTitleHuff,
+.housesTitleSpells{
+  margin: 0 auto;
+  background-color: #f9f0f07a;
+  width: 70%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.titleAllDiv,
+.spellDiv{
+  width: 450px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 10px;
+}
+.title{
+  font-family: 'Lakki Reddy', cursive;
+  font-weight: bold;
+  margin: 0px 0px 0px 120px;
+  font-size: 40px;
+  /* color: black */
+  background: -webkit-linear-gradient(#1d1c1c, #504545);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.titleAll,
+.spell,
+.gryffindorTitle,
+.slytherinTitle,
+.ravenclawTitle,
+.hufflepuffTitle{
+  font-family: 'Lakki Reddy', cursive;
+  font-weight: bold;
+  font-size: 40px;
+  padding-top: 20px;
+}
+/* dropdown */
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+/* dropdown end*/
+
+/* searchbar */
+.search-container{
+  margin-right: -130px;
+  width: 340px;
+}
+
+.search,
+.searchBtn{
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.search{
+  border-bottom: 1px solid black;
+  width: 200px
+}
+.searchIcon{
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
+/* searchbar end */
+
+.infoDiv{
+  font-weight: bold;
+}
+.information, .values{
+  background-color:#e4d6cdc4;
+  border-radius: 10px;
+}
+.values{
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-items : center;
+  margin-top: 20px;
+}
+.information{
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-items : center;
+  align-items: center;
+  margin: 0 auto;
+}
+.text{
+  text-align: center;
+  font-family: 'Lakki Reddy', cursive;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.valuesCon{
+  display: flex;
+  flex-direction: row;
+  justify-content : space-evenly;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.valuesContext{
+  display: flex;
+  flex-direction: row;
+  justify-content : center;
+}
+.houses{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.house,
+.patronus,
+.wand,
+.boggart,
+.animagus,
+.bloodStatus,
+.deathEater,
+.school{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin: 0 auto;
+}
+.icons{
+  height: 30px;
+  width: 30px;
+}
+.valuesIcons{
+  height: 20px;
+  width: 20px;
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+.gryffindorDiv,
+.ravenclawDiv, 
+.slytherinDiv, 
+.hufflepuffDiv{
+  cursor: pointer;
+  margin: 10px;
+  width: 350px;
+  height: 500px;
+  background-color: #c3a592d9;
+  border-radius: 10px; 
+  padding: 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.gryffindorDiv, .ravenclawDiv, .slytherinDiv, .hufflepuffDiv {
+  background-size: 300px 500px;
+}
+.infoTitle{
+font-family: 'Lakki Reddy', cursive;
+margin: -15px 0px 0px 0px;
+text-align: center;
+font-size: 20px
+}
+.textTitle:hover .tooltiptext {
+  visibility: visible;
+}
+.textTitle{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.gryffindorBtn,
+.ravenclawBtn,
+.slytherinBtn,
+.hufflepuffBtn,
+.charsBtnGry,
+.charsBtnRaven,
+.charsBtnSly,
+.charsBtnHuff,
+.spellBtn,
+.allCharsBtn{
+  border: none;
+  border-radius: 10px;
+  color: black;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+}
+.gryffindorBtn{
+  background-color: #F9736C  ;
+}
+.ravenclawBtn{
+  background-color: #55a1ff  ;
+}
+.slytherinBtn{
+  background-color: #7cab6f ;
+}
+.hufflepuffBtn{
+  background-color:#f1e689 ;
+}
+.view{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 50px 100px;
+}
+.allCharBtn, 
+.spellsBtn{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.nameText{
+font-family: 'Lakki Reddy', cursive;
+font-size: 25px;
+font-weight: bold;
+}
+/* .infoContent{
+  font-family: 'Hind Vadodara', sans-serif;
+} */
+
+/* Gryffindor.html stylesheet*/
+main{
+  height: 80vh;
+  width: 70%;
+  /* background-color: #eee; */
+  margin: 0 auto;
+}
+.charDiv{
+  display: flex;
+}
+.charList, 
+.cha{
+  height: 80vh;
+  width: 70%;
+  overflow: scroll;
+}
+.charList{  
+  background-color: #f9f0f07a
+}
+.charDisplay,
+.charDisplayAll,
+.spellDisplay{
+  height: 80vh;
+  width: 30%;
+  background-color: #c3a592d9;
+  background-position: center;
+  background-size: 400px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.charDisplayAll,
+.spellDisplay{
+  background-size: cover
+}
+.charInfos,
+.spellInfos{
+  height: 80vh;
+  width: 100%;
+  background-color: #f9f0f0d4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.charsBtnGry,
+.charsBtnRaven,
+.charsBtnSly,
+.charsBtnHuff,
+.spellBtn,
+.allCharsBtn{
+  width: 205px;
+  height: 55px;
+  font-weight: bold;
+}
+.charsBtnGry{
+  background-color: #F9736C;
+}
+
+/* Ravenclaw.html stylesheet*/
+.charsBtnRaven{
+  background-color: #55a1ff ;
+}
+
+/* Slytherin.html stylesheet*/
+.charsBtnSly{
+  background-color:  #7cab6f ;
+}
+
+/* Ravenclaw.html stylesheet*/
+.charsBtnHuff{
+  background-color: #f1e689 ;
+}
+
+#dropdown{
+  background-color: silver;
+  outline: none;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.dropdown-menu{
+  display: flex;
+  flex-direction: column;
+}
