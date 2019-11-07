@@ -12,8 +12,8 @@ Object.keys(params).forEach(key => url.searchParams.append(key, params[key]))
 
 function displayInfos(a){
   document.querySelector('.name').innerHTML = `<div class="name"><p class="nameText">${a.spell}</p></div>`;
-  document.querySelector('.house').innerHTML = `<a href="#" data-toggle="tooltip" data-placement="bottom" title="Spell Type"><img class="icons" src="./img/type.png"></a><p class="infoContent"> &nbsp;${a.type}</p>`;
-  document.querySelector('.patronus').innerHTML = `<a href="#" data-toggle="tooltip" data-placement="bottom" title="Effect"><img class="icons" src="./img/effect.png"></a><p class="infoContent"> &nbsp;${a.effect}</p>`;
+  document.querySelector('.type').innerHTML = `<a href="#" data-toggle="tooltip" data-placement="bottom" title="Spell Type"><img class="icons" src="./img/type.png"></a><p class="infoContent"> &nbsp;${a.type}</p>`;
+  document.querySelector('.effect').innerHTML = `<a href="#" data-toggle="tooltip" data-placement="bottom" title="Effect"><img class="icons" src="./img/effect.png"></a><p class="infoContent"> &nbsp;${a.effect}</p>`;
 }
 
 // make API request using Fetch API
