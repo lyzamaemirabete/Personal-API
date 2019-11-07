@@ -1,7 +1,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Personal API Project: Harry Potter Characters
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
-**Harry Potter Characters** is an API-based web application where users can view and search for a Harry Potter Character names and view each characters information.
+**Harry Potter Characters** is an API-based web application where users can view and search for a Harry Potter Character names and view each characters informations as well as the spells which can be sorted by type.
 
 ### Built With
 
@@ -26,11 +26,6 @@ Contributions are what make the open source community such an amazing place to b
 3. Commit your Changes (git commit -m 'Add some AmazingFeature')
 4. Push to the Branch (git push origin feature/AmazingFeature)
 5. Open a Pull Request
-<!-- LICENSE -->
-
-## License
-
-Distributed under the MIT License. See LICENSE for more information.
 
 <!-- CONTACT -->
 ## Contact
