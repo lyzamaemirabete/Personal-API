@@ -26,6 +26,7 @@ fetch(url, {key: key})
   document.getElementById('cha').innerHTML = chars;
 
   document.querySelectorAll('#allCharsBtn').forEach(function(el){
+
     el.addEventListener('click', function(){
         // console.log(this.getAttribute('data-id')
        var charID = this.getAttribute('data-id');

@@ -8,6 +8,8 @@
 -  [html](https://www.w3schools.com/html/html_intro.asp)
 -  [css](https://www.w3schools.com/css/)
 -  [Javascript](http://vanilla-js.com/)
+-  [Jquery](http://jquery.com/)
+-  [Javascript](https://fonts.google.com/)
 -  [Harry Potter API](https://potterapi.com)
 
 ### Prerequisites
@@ -34,3 +36,5 @@ Distributed under the MIT License. See LICENSE for more information.
 ## Contact
 
 Lyza Mae B. Mirabete . - lyza.mirabete@boom.camp
+Live Server Project Link : http://172.60.61.254:5500/
+Netlify Link : https://harrypotterapi-project.netlify.com/

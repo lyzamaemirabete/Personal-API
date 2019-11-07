@@ -283,7 +283,9 @@ font-size: 20px
 .charsBtnSly,
 .charsBtnHuff,
 .spellBtn,
-.allCharsBtn{
+.allCharsBtn,
+.allCharBtn,
+.spellsBtn{
   border: none;
   border-radius: 10px;
   color: black;
@@ -295,19 +297,47 @@ font-size: 20px
   margin: 4px 2px;
   cursor: pointer;
   outline: none;
-  font-weight: bold;
+  font-weight: bold;  
+  transition: all .2s ease-in-out;
+}
+.allCharsBtn:hover{
+  transform: scale(1.1);
+  border: 1px solid black;
+}
+.spellBtn:hover{
+  transform: scale(1.1);
+  border: 1px solid black;
+}
+.allCharBtn:hover{
+  transform: scale(1.1);
 }
 .gryffindorBtn{
   background-color: #F9736C  ;
 }
+.gryffindorBtn:hover{
+  background-color: #F9736C  ;
+  transform: scale(1.1);
+}
 .ravenclawBtn{
   background-color: #55a1ff  ;
+}
+.ravenclawBtn:hover{
+  background-color: #55a1ff  ;
+  transform: scale(1.1);
 }
 .slytherinBtn{
   background-color: #7cab6f ;
 }
+.slytherinBtn:hover{
+  background-color: #7cab6f ;
+  transform: scale(1.1);
+}
 .hufflepuffBtn{
   background-color:#f1e689 ;
+}
+.hufflepuffBtn:hover{
+  background-color:#f1e689 ;
+  transform: scale(1.1);
 }
 .view{
   display: flex;
@@ -329,6 +359,9 @@ font-size: 20px
   cursor: pointer;
   border-radius: 10px;
   font-weight: bold;
+}
+.spellsBtn:hover{
+  transform: scale(1.1);
 }
 .nameText{
 font-family: 'Lakki Reddy', cursive;
@@ -395,24 +428,41 @@ main{
   width: 205px;
   height: 55px;
   font-weight: bold;
+  transition: all .2s ease-in-out;
 }
 .charsBtnGry{
   background-color: #F9736C;
+}
+.charsBtnGry:hover{
+  background-color: gainsboro;
+  transform: scale(1.1);
 }
 
 /* Ravenclaw.html stylesheet*/
 .charsBtnRaven{
   background-color: #55a1ff ;
 }
+.charsBtnRaven:hover{
+  background-color: gainsboro;
+  transform: scale(1.1);
+}
 
 /* Slytherin.html stylesheet*/
 .charsBtnSly{
   background-color:  #7cab6f ;
 }
+.charsBtnSly:hover{
+  background-color: gainsboro;
+  transform: scale(1.1);
+}
 
 /* Ravenclaw.html stylesheet*/
 .charsBtnHuff{
   background-color: #f1e689 ;
+}
+.charsBtnHuff:hover{
+  background-color: gainsboro;
+  transform: scale(1.1);
 }
 
 #dropdown{
