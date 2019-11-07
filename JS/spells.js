@@ -102,10 +102,11 @@ allSpells.addEventListener('click', function(){
 
 
 
-
+var spells = document.querySelector('.spell');
 //charm
 var charm = document.querySelector('.charmDrop');
 charm.addEventListener('click', function(){
+  spells.innerText = "Charms"
   dropdownText.innerText = "";
   dropdownText.innerText = this.innerText
   fetch(url, {key: key})
@@ -133,6 +134,7 @@ charm.addEventListener('click', function(){
 //curse
 var curse = document.querySelector('.curseDrop');
 curse.addEventListener('click', function(){
+  spells.innerText = "Curses"
   dropdownText.innerText = "";
   dropdownText.innerText = this.innerText
   fetch(url, {key: key})
@@ -160,6 +162,7 @@ curse.addEventListener('click', function(){
 //enchantment
 var enchantment = document.querySelector('.enchantmentDrop');
 enchantment.addEventListener('click', function(){
+  spells.innerText = "Enchantment"
   dropdownText.innerText = "";
   dropdownText.innerText = this.innerText
   fetch(url, {key: key})
@@ -187,6 +190,7 @@ enchantment.addEventListener('click', function(){
 //hex
 var hex = document.querySelector('.hexDrop');
 hex.addEventListener('click', function(){
+  spells.innerText = "Hex"
   dropdownText.innerText = "";
   dropdownText.innerText = this.innerText
   fetch(url, {key: key})
@@ -214,6 +218,7 @@ hex.addEventListener('click', function(){
 // jinx
 var jinx = document.querySelector('.jinxDrop');
 jinx.addEventListener('click', function(){
+  spells.innerText = "Jinx"
   dropdownText.innerText = "";
   dropdownText.innerText = this.innerText
   fetch(url, {key: key})
@@ -241,6 +246,7 @@ jinx.addEventListener('click', function(){
 //spell
 var spell = document.querySelector('.spellDrop');
 spell.addEventListener('click', function(){
+  spells.innerText = "Spells"
   dropdownText.innerText = "";
   dropdownText.innerText = this.innerText
   fetch(url, {key: key})
