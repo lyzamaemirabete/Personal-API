@@ -435,5 +435,12 @@ function displayInfos(a){
  }
  else 
  document.querySelector('.school').innerHTML = `<a href="#" data-toggle="tooltip" data-placement="bottom" title="School"><img class="icons" src="./img/school.png"></a><p class="infoContent"> &nbsp;${a.school}</p>`;
-       
+ 
+ if(`${a.role}` === 'undefined')
+ {
+  document.querySelector('.role').innerHTML = `<a href="#" data-toggle="tooltip" data-placement="bottom" title="Role"><img class="icons" src="./img/role.png"></a><p class="infoContent"> &nbsp;---</p>`;
+  }
+  else 
+  document.querySelector('.role').innerHTML = `<a href="#" data-toggle="tooltip" data-placement="bottom" title="Role"><img class="icons" src="./img/role.png"></a><p class="infoContent"> &nbsp;${a.role}</p>`;
+        
 }
