@@ -35,6 +35,6 @@ Distributed under the MIT License. See LICENSE for more information.
 <!-- CONTACT -->
 ## Contact
 
-Lyza Mae B. Mirabete . - lyza.mirabete@boom.camp
-Live Server Project Link : http://172.60.61.254:5500/
-Netlify Link : https://harrypotterapi-project.netlify.com/
+- Lyza Mae B. Mirabete . - lyza.mirabete@boom.camp
+- Live Server Project Link : http://172.60.61.254:5500/
+- Netlify Link : https://harrypotterapi-project.netlify.com/
