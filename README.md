@@ -10,14 +10,14 @@
 -  You can also explore for the Spells which you can view the spells by type and their information.
 
 ### Getting Started
-
+<!-- Getting Started -->
 1. Download the zip file at Github
 2. Extract and save the local file copy.
 3. Meet the requirement before getting started.
 4. Open `index.html`
 
 ### Built With
-
+<!--Built With-->
 -  [html](https://www.w3schools.com/html/html_intro.asp)
 -  [css](https://www.w3schools.com/css/)
 -  [Javascript](http://vanilla-js.com/)
@@ -26,7 +26,7 @@
 -  [Harry Potter API](https://potterapi.com)
 
 ### Prerequisites
-
+<!--Prerequisites-->
 -  Browser
 -  Internet Connection
 
